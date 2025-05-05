@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+
 class Checkbook:
     def __init__(self):
         self.balance = 0.0
@@ -19,6 +20,7 @@ class Checkbook:
 
     def get_balance(self):
         print("Current Balance: ${:.2f}".format(self.balance))
+
 
 def main():
     cb = Checkbook()
@@ -42,6 +44,7 @@ def main():
             cb.get_balance()
         else:
             print("Invalid command. Please try again.")
+
 
 if __name__ == "__main__":
     main()
